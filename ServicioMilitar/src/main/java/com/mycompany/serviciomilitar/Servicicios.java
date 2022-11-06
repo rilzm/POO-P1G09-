@@ -8,6 +8,6 @@ package com.mycompany.serviciomilitar;
  *
  * @author rlope
  */
-public class Servicicios {
+public class Servicicios extends Soldado{
     
 }

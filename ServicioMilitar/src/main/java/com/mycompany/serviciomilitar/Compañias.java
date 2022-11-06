@@ -8,6 +8,24 @@ package com.mycompany.serviciomilitar;
  *
  * @author rlope
  */
-public class Compañias {
+public class Compañias extends Soldado{
+    private String numcompañia;
+    private double actividad;
+
+    public String getNumcompañia() {
+        return numcompañia;
+    }
+
+    public void setNumcompañia(String numcompañia) {
+        this.numcompañia = numcompañia;
+    }
+
+    public double getActividad() {
+        return actividad;
+    }
+
+    public void setActividad(double actividad) {
+        this.actividad = actividad;
+    }
     
 }
