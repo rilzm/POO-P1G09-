@@ -10,7 +10,7 @@ package com.mycompany.serviciomilitar;
  */
 public class Compañias extends Soldado{
     private String numcompañia;
-    private double actividad;
+    private String actividad;
 
     public String getNumcompañia() {
         return numcompañia;
@@ -20,12 +20,11 @@ public class Compañias extends Soldado{
         this.numcompañia = numcompañia;
     }
 
-    public double getActividad() {
+    public String getActividad() {
         return actividad;
     }
 
-    public void setActividad(double actividad) {
+    public void setActividad(String actividad) {
         this.actividad = actividad;
     }
-    
 }

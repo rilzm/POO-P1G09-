@@ -8,26 +8,9 @@ package com.mycompany.serviciomilitar;
  *
  * @author rlope
  */
-public class Cuartel {
-    private String nombre;
-    private String ubicacion;
+public class Servicios extends Soldado{
     private String codigo;
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getUbicacion() {
-        return ubicacion;
-    }
-
-    public void setUbicacion(String ubicacion) {
-        this.ubicacion = ubicacion;
-    }
+    private String descripcion;
 
     public String getCodigo() {
         return codigo;
@@ -37,4 +20,12 @@ public class Cuartel {
         this.codigo = codigo;
     }
 
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+    
 }
